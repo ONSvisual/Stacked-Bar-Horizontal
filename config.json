@@ -4,19 +4,13 @@
         
             "dateFormat":"",
         
-            "legendLabels" : ["1985/86","1986/87","1987/88","1988/89","1989/90"],
+            "legendLabels" : ["Under occupied","Standard occupied","Over occupied"],
         
-            "sourceText":["Bus, rail, light rail and tram statistics tables, DfT"],
-            "sourceURL":["http://www.ons.gov.uk/ons/publications/re-reference-tables.html?edition=tcm%3A77-350752"],
+            "sourceText":["2011 Census, Office for National Statistics"],
+            "sourceURL":["http://www.ons.gov.uk/ons/rel/census/2011-census-analysis/overcrowding-and-under-occupation-in-england-and-wales/index.html"],
         
-            "annotationChart": [
-                "The three troughs are due to the economic downturns  in the early 1980s, early 1990s and late 2000s.",
-                "Claws in  your leg"
-            ],
-            "annotationBullet": [
-                "The three troughs are due to the economic downturns in the early  1980s, early 1990s and late 2000s. The most recent downturn had  less impact on the employment rate than previous downturns",
-                "Claws in your leg. Purr for no reason"
-            ],
+            "annotationChart": [],
+            "annotationBullet": [],
             "annotationXY":[
                 ["Light rail  and tram ","68.4"],
                 ["Underground","20"]
@@ -32,19 +26,19 @@
                 ["Underground","73"]
             ],
         
-            "xAxisLabel":"%",
+            "yAxisLabel":"%",
             "xAxisScale":"auto_zero_max",   
             "xAxisBreak": true,
             "xAxisBreak_sm_md_lg": [65,65,65]            
     },
     "optional" : {
-            "margin_sm": [20, 15, 35, 100],
-            "margin_md": [20, 15, 35, 100],
-            "margin_lg": [20, 15, 35, 100],
+            "margin_sm": [20, 10, 35, 60],
+            "margin_md": [20, 5, 35, 60],
+            "margin_lg": [20, 5, 35, 60],
         
-            "aspectRatio_sm" : [16,13],
-            "aspectRatio_md" : [16,12],
-            "aspectRatio_lg" : [16,9],
+            "aspectRatio_sm" : [16,10],
+            "aspectRatio_md" : [16,7],
+            "aspectRatio_lg" : [16,5],
         
             "mobileBreakpoint" : 610, 
             
