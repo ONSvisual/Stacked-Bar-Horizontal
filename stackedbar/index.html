@@ -194,21 +194,17 @@ function drawGraphic(width) {
 	  .attr("x", function(d) { 
 	  console.log("0 " + d.x1);
 			if (d.x1 >=0){
-				console.log("1 " +x(d.x0));
 				return x(d.x0);
 			} else {
 				return x(d.x2)+ (x(d.x0) - x(d.x1));
-				console.log("2 " + x(d.x2)+ (x(d.x0) - x(d.x1)));
 			}	  
 			})
 	  .attr("width", function(d) { 
 	  			console.log("0 " + d.x0);
 			if (d.x1 >=0){
 				return Math.abs(x(d.x0) - x(d.x1));
-				console.log("3 " + x(d.x0) - x(d.x1));
 			} else {
 				return Math.abs(x(d.x0) - x(d.x1));
-				console.log("4 " + x(d.x0) - x(d.x1));
 
 			}
 	  })
